@@ -1,0 +1,1322 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Nandhini Sivakumar",
+      "username": "nandhini@gmail.com",
+      "password": "Nandhini@123",
+      "phone": "9876543210"
+    },
+    {
+      "id": "2",
+      "name": "Rahul Kumar",
+      "username": "rahul@gmail.com",
+      "password": "Rahul@123",
+      "phone": "9123456789"
+    },
+    {
+      "id": "3",
+      "name": "Priya Sharma",
+      "username": "priya@gmail.com",
+      "password": "Priya@123",
+      "phone": "9988776655"
+    },
+    {
+      "id": "4",
+      "name": "Arun Raj",
+      "username": "arun@gmail.com",
+      "password": "Arun@123",
+      "phone": "9871234567"
+    },
+    {
+      "id": "5",
+      "name": "Meena Ravi",
+      "username": "meena@gmail.com",
+      "password": "Meena@123",
+      "phone": "9012345678"
+    },
+    {
+      "name": "deva",
+      "username": "deva@gmail.com",
+      "password": "Deva@123",
+      "phone": "7891234561",
+      "id": "0jjSsO_d9Zc"
+    }
+  ],
+  "trips": [
+    {
+      "userId": "1",
+      "saved": true,
+      "createdAt": "2026-08-01T11:44:22.287Z",
+      "tripData": {
+        "destination": "Kullu, India",
+        "duration": "5 Days and 5 Nights",
+        "travellerType": "family",
+        "tripStyle": "kid-friendly",
+        "totalTravellers": 4,
+        "transportation": {
+          "recommended": "Flight",
+          "options": [
+            {
+              "mode": "Flight",
+              "travelTime": "2 hours",
+              "approximateBudgetPerPerson": 5000,
+              "approximateTotalBudget": 20000,
+              "comfortLevel": "High",
+              "recommendation": "Fastest"
+            },
+            {
+              "mode": "Train",
+              "travelTime": "12 hours",
+              "approximateBudgetPerPerson": 2000,
+              "approximateTotalBudget": 8000,
+              "comfortLevel": "Medium",
+              "recommendation": "Budget"
+            },
+            {
+              "mode": "Bus",
+              "travelTime": "14 hours",
+              "approximateBudgetPerPerson": 1500,
+              "approximateTotalBudget": 6000,
+              "comfortLevel": "Low",
+              "recommendation": "Budget"
+            },
+            {
+              "mode": "Self-drive/Taxi",
+              "travelTime": "12 hours",
+              "approximateBudgetPerPerson": 3000,
+              "approximateTotalBudget": 12000,
+              "comfortLevel": "Medium",
+              "recommendation": "Family Friendly"
+            }
+          ]
+        },
+        "accommodation": {
+          "category": "Mid-range",
+          "costPerNight": 4000,
+          "totalCost": 20000
+        },
+        "dayWiseItinerary": [
+          {
+            "day": 1,
+            "morning": "Arrival in Kullu, check-in to hotel",
+            "afternoon": "Visit Kullu Valley",
+            "evening": "Enjoy local cuisine",
+            "estimatedCost": 2000
+          },
+          {
+            "day": 2,
+            "morning": "Visit Manikaran Sahib",
+            "afternoon": "Take a dip in hot springs",
+            "evening": "Enjoy local music and dance",
+            "estimatedCost": 2500
+          },
+          {
+            "day": 3,
+            "morning": "Visit Bijli Mahadev Temple",
+            "afternoon": "Take a trek to the temple",
+            "evening": "Enjoy sunset views",
+            "estimatedCost": 2000
+          },
+          {
+            "day": 4,
+            "morning": "Visit Raghunath Temple",
+            "afternoon": "Take a stroll along the Beas River",
+            "evening": "Enjoy local street food",
+            "estimatedCost": 1500
+          },
+          {
+            "day": 5,
+            "morning": "Visit Naggar Castle",
+            "afternoon": "Take a tour of the castle",
+            "evening": "Departure from Kullu",
+            "estimatedCost": 2000
+          }
+        ],
+        "budget": {
+          "transportation": 20000,
+          "accommodation": 20000,
+          "food": 15000,
+          "attractions": 10000,
+          "localTransport": 5000,
+          "shopping": 5000,
+          "miscellaneous": 5000,
+          "total": 80000
+        },
+        "moneySavingTips": [
+          "Book accommodations and flights in advance",
+          "Use public transport or walk instead of taxis",
+          "Try local street food instead of restaurants",
+          "Avoid shopping at touristy areas"
+        ],
+        "packingSuggestions": [
+          "Comfortable shoes",
+          "Lightweight clothing",
+          "Sunscreen and sunglasses",
+          "Power adapter and charger",
+          "First-aid kit"
+        ],
+        "mustNotMiss": [
+          "Kullu Valley",
+          "Manikaran Sahib",
+          "Bijli Mahadev Temple",
+          "Raghunath Temple",
+          "Naggar Castle"
+        ]
+      },
+      "id": "XFO-2qTHl7w"
+    },
+    {
+      "userId": "1",
+      "saved": false,
+      "createdAt": "2026-08-01T13:40:16.184Z",
+      "tripData": {
+        "destination": "Mumbai, India",
+        "duration": "4 Days and 4 Nights",
+        "travellerType": "Couple",
+        "tripStyle": "visit attractions",
+        "totalTravellers": 2,
+        "transportation": {
+          "recommended": "Flight",
+          "options": [
+            {
+              "mode": "Flight",
+              "estimatedTravelTime": "1.5 hours",
+              "approximateBudgetPerPerson": 3000,
+              "approximateTotalBudget": 6000,
+              "comfortLevel": "High",
+              "recommendation": "Fastest"
+            },
+            {
+              "mode": "Train",
+              "estimatedTravelTime": "24 hours",
+              "approximateBudgetPerPerson": 2000,
+              "approximateTotalBudget": 4000,
+              "comfortLevel": "Medium",
+              "recommendation": "Budget"
+            },
+            {
+              "mode": "Bus",
+              "estimatedTravelTime": "24 hours",
+              "approximateBudgetPerPerson": 1500,
+              "approximateTotalBudget": 3000,
+              "comfortLevel": "Low",
+              "recommendation": "Budget"
+            }
+          ]
+        },
+        "accommodation": {
+          "category": "Mid-range",
+          "estimatedCostPerNight": 4000,
+          "totalEstimatedCost": 16000
+        },
+        "dayWiseItinerary": [
+          {
+            "day": 1,
+            "morning": "Visit Gateway of India",
+            "afternoon": "Explore Colaba Causeway",
+            "evening": "Enjoy sunset at Marine Drive",
+            "suggestedMeals": "Try local street food",
+            "estimatedCostForAttractions": 1000
+          },
+          {
+            "day": 2,
+            "morning": "Visit Haji Ali Dargah",
+            "afternoon": "Explore Chor Bazaar",
+            "evening": "Enjoy dinner at a rooftop restaurant",
+            "suggestedMeals": "Try local cuisine",
+            "estimatedCostForAttractions": 1500
+          },
+          {
+            "day": 3,
+            "morning": "Visit Siddhivinayak Temple",
+            "afternoon": "Explore Nehru Science Centre",
+            "evening": "Enjoy a romantic walk at Juhu Beach",
+            "suggestedMeals": "Try local seafood",
+            "estimatedCostForAttractions": 1200
+          },
+          {
+            "day": 4,
+            "morning": "Visit Elephanta Caves",
+            "afternoon": "Explore CST Railway Station",
+            "evening": "Departure",
+            "suggestedMeals": "Try local snacks",
+            "estimatedCostForAttractions": 1000
+          }
+        ],
+        "budget": {
+          "transportation": 6000,
+          "accommodation": 16000,
+          "food": 8000,
+          "attractions": 4700,
+          "localTransport": 1000,
+          "shopping": 2000,
+          "miscellaneous": 1000,
+          "total": 38400
+        },
+        "moneySavingTips": [
+          "Book flights and accommodation in advance",
+          "Use public transport",
+          "Try local street food",
+          "Avoid shopping at tourist areas"
+        ],
+        "packingSuggestions": [
+          "Lightweight clothing",
+          "Comfortable shoes",
+          "Sunglasses",
+          "Sunscreen",
+          "Power adapter"
+        ],
+        "mustNotMiss": [
+          "Gateway of India",
+          "Marine Drive",
+          "Haji Ali Dargah",
+          "Juhu Beach",
+          "Elephanta Caves"
+        ]
+      },
+      "id": "GhPvWwYC9LA"
+    },
+    {
+      "userId": "2",
+      "saved": true,
+      "createdAt": "2026-08-02T10:25:09.942Z",
+      "tripData": {
+        "destination": "Egypt",
+        "duration": "6 Days and 5 Nights",
+        "travellerType": "Family",
+        "tripStyle": "Kid Friendly",
+        "totalTravellers": 8,
+        "transportation": {
+          "recommended": "Flight",
+          "options": [
+            {
+              "mode": "Flight",
+              "estimatedTravelTime": "5 hours",
+              "approximateBudgetPerPerson": 500,
+              "approximateTotalBudget": 4000,
+              "comfortLevel": "High",
+              "recommendation": "Fastest"
+            },
+            {
+              "mode": "Train",
+              "estimatedTravelTime": "Not Available",
+              "approximateBudgetPerPerson": "Not Available",
+              "approximateTotalBudget": "Not Available",
+              "comfortLevel": "Not Available",
+              "recommendation": "Not Recommended"
+            },
+            {
+              "mode": "Bus",
+              "estimatedTravelTime": "Not Available",
+              "approximateBudgetPerPerson": "Not Available",
+              "approximateTotalBudget": "Not Available",
+              "comfortLevel": "Not Available",
+              "recommendation": "Not Recommended"
+            },
+            {
+              "mode": "Self-drive/Taxi",
+              "estimatedTravelTime": "Not Available",
+              "approximateBudgetPerPerson": "Not Available",
+              "approximateTotalBudget": "Not Available",
+              "comfortLevel": "Not Available",
+              "recommendation": "Not Recommended"
+            }
+          ]
+        },
+        "accommodation": {
+          "category": "Budget",
+          "estimatedCostPerNight": 100,
+          "estimatedTotalCost": 2000
+        },
+        "dayWiseItinerary": [
+          {
+            "day": 1,
+            "morning": "Visit Pyramids of Giza",
+            "afternoon": "Visit Egyptian Museum",
+            "evening": "Enjoy traditional Egyptian dinner",
+            "suggestedMeals": "Koshari, Falafel",
+            "estimatedCost": 100
+          },
+          {
+            "day": 2,
+            "morning": "Visit Khan el-Khalili market",
+            "afternoon": "Take a Nile River cruise",
+            "evening": "Enjoy belly dance show",
+            "suggestedMeals": "Shawarma, Ful Medames",
+            "estimatedCost": 150
+          },
+          {
+            "day": 3,
+            "morning": "Visit Valley of the Kings",
+            "afternoon": "Visit Temple of Hatshepsut",
+            "evening": "Enjoy traditional Egyptian music",
+            "suggestedMeals": "Ta'ameya, Mahshi",
+            "estimatedCost": 120
+          },
+          {
+            "day": 4,
+            "morning": "Visit Abu Simbel temples",
+            "afternoon": "Take a desert safari",
+            "evening": "Enjoy stargazing",
+            "suggestedMeals": "Grilled chicken, kebabs",
+            "estimatedCost": 180
+          },
+          {
+            "day": 5,
+            "morning": "Visit Citadel of Cairo",
+            "afternoon": "Visit Mosque of Muhammad Ali",
+            "evening": "Enjoy shopping at Khan el-Khalili market",
+            "suggestedMeals": "Ful, falafel",
+            "estimatedCost": 100
+          },
+          {
+            "day": 6,
+            "morning": "Visit Egyptian Museum",
+            "afternoon": "Take a farewell tour of Cairo",
+            "evening": "Departure",
+            "suggestedMeals": "Koshari, shawarma",
+            "estimatedCost": 80
+          }
+        ],
+        "budget": {
+          "transportation": 4000,
+          "accommodation": 2000,
+          "food": 1500,
+          "attractions": 1000,
+          "localTransport": 200,
+          "shopping": 500,
+          "miscellaneous": 500,
+          "total": 7700
+        },
+        "moneySavingTips": [
+          "Book flights and accommodation in advance",
+          "Use public transport or walk instead of taxis",
+          "Eat at local restaurants instead of touristy places",
+          "Avoid shopping at touristy areas"
+        ],
+        "packingSuggestions": [
+          "Comfortable shoes",
+          "Light clothing",
+          "Sunscreen",
+          "Power adapter",
+          "Camera"
+        ],
+        "mustNotMiss": [
+          "Pyramids of Giza",
+          "Egyptian Museum",
+          "Nile River cruise",
+          "Khan el-Khalili market"
+        ]
+      },
+      "id": "WLZORVf2_50"
+    },
+    {
+      "userId": "2",
+      "saved": true,
+      "createdAt": "2026-08-02T10:32:57.719Z",
+      "tripData": {
+        "destination": "Seychelles, Seychelles",
+        "duration": "6 Days and 5 Nights",
+        "travellerType": "couple",
+        "tripStyle": "romance",
+        "totalTravellers": 2,
+        "transportation": {
+          "recommended": "Flight",
+          "options": [
+            {
+              "mode": "Flight",
+              "estimatedTravelTime": "4 hours",
+              "approximateBudgetPerPerson": 500,
+              "approximateTotalBudget": 1000,
+              "comfortLevel": "High",
+              "recommendation": "Fastest"
+            },
+            {
+              "mode": "Train",
+              "estimatedTravelTime": "Not Available",
+              "approximateBudgetPerPerson": 0,
+              "approximateTotalBudget": 0,
+              "comfortLevel": "Not Available",
+              "recommendation": "Not Available"
+            },
+            {
+              "mode": "Bus",
+              "estimatedTravelTime": "Not Available",
+              "approximateBudgetPerPerson": 0,
+              "approximateTotalBudget": 0,
+              "comfortLevel": "Not Available",
+              "recommendation": "Not Available"
+            },
+            {
+              "mode": "Self-drive/Taxi",
+              "estimatedTravelTime": "Not Available",
+              "approximateBudgetPerPerson": 0,
+              "approximateTotalBudget": 0,
+              "comfortLevel": "Not Available",
+              "recommendation": "Not Available"
+            }
+          ]
+        },
+        "accommodation": {
+          "category": "Mid-range",
+          "estimatedCostPerNight": 200,
+          "estimatedTotalCost": 1000
+        },
+        "dayWiseItinerary": [
+          {
+            "day": 1,
+            "morning": "Arrival and check-in at hotel",
+            "afternoon": "Visit to Anse Source d'Argent beach",
+            "evening": "Romantic dinner at a local restaurant",
+            "suggestedMeals": "Veg cuisine",
+            "estimatedCost": 100
+          },
+          {
+            "day": 2,
+            "morning": "Visit to Vallée de Mai nature reserve",
+            "afternoon": "Snorkeling at Anse Georgette beach",
+            "evening": "Couples' spa treatment",
+            "suggestedMeals": "Veg cuisine",
+            "estimatedCost": 150
+          },
+          {
+            "day": 3,
+            "morning": "Visit to La Digue island",
+            "afternoon": "Bike ride around the island",
+            "evening": "Romantic sunset cruise",
+            "suggestedMeals": "Veg cuisine",
+            "estimatedCost": 200
+          },
+          {
+            "day": 4,
+            "morning": "Visit to Morne Seychellois national park",
+            "afternoon": "Hiking to the highest point",
+            "evening": "Private dinner at a local restaurant",
+            "suggestedMeals": "Veg cuisine",
+            "estimatedCost": 120
+          },
+          {
+            "day": 5,
+            "morning": "Visit to Anse Royale beach",
+            "afternoon": "Kayaking in the bay",
+            "evening": "Couples' cooking class",
+            "suggestedMeals": "Veg cuisine",
+            "estimatedCost": 180
+          },
+          {
+            "day": 6,
+            "morning": "Check-out and departure",
+            "afternoon": "Not Available",
+            "evening": "Not Available",
+            "suggestedMeals": "Not Available",
+            "estimatedCost": 0
+          }
+        ],
+        "budget": {
+          "transportation": 1000,
+          "accommodation": 1000,
+          "food": 800,
+          "attractions": 600,
+          "localTransport": 100,
+          "shopping": 200,
+          "miscellaneous": 300,
+          "total": 4000,
+          "budgetCategory": "Mid-range",
+          "costPerPerson": 2000,
+          "totalTripCost": 4000
+        },
+        "moneySavingTips": [
+          "Book flights and accommodation in advance",
+          "Choose mid-range accommodation",
+          "Opt for veg cuisine",
+          "Avoid shopping at touristy areas"
+        ],
+        "packingSuggestions": [
+          "Light clothing",
+          "Sunscreen",
+          "Insect repellent",
+          "Comfortable shoes",
+          "Power adapter"
+        ],
+        "mustNotMiss": [
+          "Anse Source d'Argent beach",
+          "Vallée de Mai nature reserve",
+          "La Digue island",
+          "Morne Seychellois national park",
+          "Romantic sunset cruise"
+        ]
+      },
+      "id": "FBcJJb0Odpg"
+    },
+    {
+      "userId": "2",
+      "saved": true,
+      "createdAt": "2026-08-02T10:38:56.383Z",
+      "tripData": {
+        "destination": "Thailand",
+        "duration": "6 Days and 5 Nights",
+        "travellerType": "couple",
+        "tripStyle": "romance",
+        "totalTravellers": 2,
+        "transportation": {
+          "recommended": "Flight",
+          "options": [
+            {
+              "mode": "Flight",
+              "travelTime": "2.5 hours",
+              "approximateBudgetPerPerson": 15000,
+              "approximateTotalBudget": 30000,
+              "comfortLevel": "High",
+              "recommendation": "Fastest"
+            },
+            {
+              "mode": "Train and Bus",
+              "travelTime": "48 hours",
+              "approximateBudgetPerPerson": 5000,
+              "approximateTotalBudget": 10000,
+              "comfortLevel": "Low",
+              "recommendation": "Budget"
+            }
+          ]
+        },
+        "accommodation": {
+          "category": "Mid-range",
+          "costPerNight": 3000,
+          "totalCost": 15000
+        },
+        "dayWiseItinerary": [
+          {
+            "day": 1,
+            "morning": "Arrival in Bangkok, check-in to hotel",
+            "afternoon": "Visit the Grand Palace",
+            "evening": "Romantic dinner cruise on Chao Phraya River",
+            "suggestedMeals": "Veg Thai cuisine",
+            "estimatedCost": 2000
+          },
+          {
+            "day": 2,
+            "morning": "Visit the Wat Phra Kaew temple",
+            "afternoon": "Relax at the hotel or explore the city",
+            "evening": "Couples' spa treatment",
+            "suggestedMeals": "Veg Indian cuisine",
+            "estimatedCost": 2500
+          },
+          {
+            "day": 3,
+            "morning": "Travel to Phuket",
+            "afternoon": "Check-in to hotel, relax on Patong Beach",
+            "evening": "Sunset dinner at a beach restaurant",
+            "suggestedMeals": "Veg seafood",
+            "estimatedCost": 3000
+          },
+          {
+            "day": 4,
+            "morning": "Island hopping tour to Phi Phi Islands",
+            "afternoon": "Snorkeling and swimming",
+            "evening": "Romantic dinner at a beach resort",
+            "suggestedMeals": "Veg Thai cuisine",
+            "estimatedCost": 3500
+          },
+          {
+            "day": 5,
+            "morning": "Visit the Old Phuket Town",
+            "afternoon": "Relax at the hotel or explore the city",
+            "evening": "Couples' cooking class",
+            "suggestedMeals": "Veg Indian cuisine",
+            "estimatedCost": 2000
+          },
+          {
+            "day": 6,
+            "morning": "Departure from Phuket",
+            "afternoon": "Travel back to Chennai",
+            "evening": "Arrival in Chennai",
+            "suggestedMeals": "Veg Indian cuisine",
+            "estimatedCost": 1000
+          }
+        ],
+        "budget": {
+          "transportation": 30000,
+          "accommodation": 15000,
+          "food": 15000,
+          "attractions": 10000,
+          "localTransport": 2000,
+          "shopping": 5000,
+          "miscellaneous": 5000,
+          "total": 70000
+        },
+        "moneySavingTips": [
+          "Book flights and hotels in advance",
+          "Use public transport or walk instead of taxis",
+          "Eat at local restaurants instead of fine dining",
+          "Avoid shopping at tourist areas"
+        ],
+        "packingSuggestions": [
+          "Lightweight clothing",
+          "Comfortable shoes",
+          "Sunscreen and sunglasses",
+          "Power adapter and charger",
+          "Travel documents and insurance"
+        ],
+        "mustNotMiss": [
+          "Grand Palace",
+          "Wat Phra Kaew temple",
+          "Phi Phi Islands",
+          "Old Phuket Town",
+          "Romantic dinner cruise on Chao Phraya River"
+        ]
+      },
+      "id": "7Igukp-ScA4"
+    },
+    {
+      "userId": "2",
+      "saved": false,
+      "createdAt": "2026-08-02T11:27:06.267Z",
+      "tripData": {
+        "destination": "Vietnam",
+        "duration": "4 Days and 4 Nights",
+        "travellerType": "couple",
+        "tripStyle": "leisure",
+        "totalTravellers": 2,
+        "transportation": {
+          "recommended": "Flight",
+          "options": [
+            {
+              "mode": "Flight",
+              "estimatedTravelTime": "4 hours",
+              "approximateBudgetPerPerson": 200,
+              "approximateTotalBudget": 400,
+              "comfortLevel": "High",
+              "recommendation": "Fastest"
+            },
+            {
+              "mode": "Train and Bus",
+              "estimatedTravelTime": "24 hours",
+              "approximateBudgetPerPerson": 100,
+              "approximateTotalBudget": 200,
+              "comfortLevel": "Low",
+              "recommendation": "Budget"
+            }
+          ]
+        },
+        "accommodation": {
+          "category": "Mid-range",
+          "estimatedCost": 300,
+          "numberOfNights": 4,
+          "totalEstimatedCost": 1200
+        },
+        "dayWiseItinerary": [
+          {
+            "day": 1,
+            "morning": "Arrival in Hanoi, check-in to hotel",
+            "afternoon": "Visit Ho Chi Minh Mausoleum, One Pillar Pagoda",
+            "evening": "Enjoy a romantic dinner at a local restaurant",
+            "suggestedMeals": "Veg Vietnamese cuisine",
+            "estimatedCost": 50
+          },
+          {
+            "day": 2,
+            "morning": "Visit Ha Long Bay",
+            "afternoon": "Take a cruise, enjoy the scenic views",
+            "evening": "Relax at the hotel",
+            "suggestedMeals": "Veg seafood",
+            "estimatedCost": 100
+          },
+          {
+            "day": 3,
+            "morning": "Visit Temple of Literature",
+            "afternoon": "Explore the Old Quarter",
+            "evening": "Enjoy a traditional Vietnamese water puppet show",
+            "suggestedMeals": "Veg street food",
+            "estimatedCost": 30
+          },
+          {
+            "day": 4,
+            "morning": "Visit Hoan Kiem Lake",
+            "afternoon": "Shop for souvenirs",
+            "evening": "Departure from Hanoi",
+            "suggestedMeals": "Veg Vietnamese cuisine",
+            "estimatedCost": 20
+          }
+        ],
+        "budget": {
+          "transportation": 400,
+          "accommodation": 1200,
+          "food": 500,
+          "attractions": 200,
+          "localTransport": 100,
+          "shopping": 200,
+          "miscellaneous": 100,
+          "total": 2700
+        },
+        "moneySavingTips": [
+          "Book flights and hotels in advance",
+          "Use public transport",
+          "Eat at local restaurants"
+        ],
+        "packingSuggestions": [
+          "Lightweight clothing",
+          "Comfortable shoes",
+          "Sunscreen",
+          "Insect repellent"
+        ],
+        "mustNotMiss": [
+          "Ha Long Bay",
+          "Ho Chi Minh Mausoleum",
+          "Old Quarter"
+        ]
+      },
+      "id": "lNJsoL7v-V8"
+    },
+    {
+      "userId": "2",
+      "saved": false,
+      "createdAt": "2026-08-02T11:33:45.638Z",
+      "tripData": {
+        "destination": "France",
+        "duration": "4 Days and 4 Nights",
+        "travellerType": "couple",
+        "tripStyle": "romance",
+        "totalTravellers": 2,
+        "transportation": {
+          "recommended": "Flight",
+          "options": [
+            {
+              "mode": "Flight",
+              "travelTime": "10 hours",
+              "approximateBudgetPerPerson": 500,
+              "approximateTotalBudget": 1000,
+              "comfortLevel": "High",
+              "recommendation": "Fastest"
+            },
+            {
+              "mode": "Train",
+              "travelTime": "20 hours",
+              "approximateBudgetPerPerson": 200,
+              "approximateTotalBudget": 400,
+              "comfortLevel": "Medium",
+              "recommendation": "Budget"
+            }
+          ]
+        },
+        "accommodation": {
+          "category": "Mid-range",
+          "costPerNight": 150,
+          "totalCost": 600
+        },
+        "dayWiseItinerary": [
+          {
+            "day": 1,
+            "morning": "Visit the Eiffel Tower",
+            "afternoon": "River Seine Cruise",
+            "evening": "Dinner at a romantic restaurant",
+            "suggestedMeals": "French cuisine",
+            "estimatedCost": 100
+          },
+          {
+            "day": 2,
+            "morning": "Visit the Louvre Museum",
+            "afternoon": "Explore the Montmartre neighborhood",
+            "evening": "Enjoy a cabaret show",
+            "suggestedMeals": "Veg French cuisine",
+            "estimatedCost": 120
+          },
+          {
+            "day": 3,
+            "morning": "Visit the Palace of Versailles",
+            "afternoon": "Stroll through the Gardens of Versailles",
+            "evening": "Dinner at a Michelin-starred restaurant",
+            "suggestedMeals": "Fine dining",
+            "estimatedCost": 200
+          },
+          {
+            "day": 4,
+            "morning": "Visit the Notre-Dame Cathedral",
+            "afternoon": "Explore the Latin Quarter",
+            "evening": "Farewell dinner at a romantic restaurant",
+            "suggestedMeals": "French cuisine",
+            "estimatedCost": 150
+          }
+        ],
+        "budget": {
+          "transportation": 1000,
+          "accommodation": 600,
+          "food": 800,
+          "attractions": 500,
+          "localTransport": 100,
+          "shopping": 200,
+          "miscellaneous": 200,
+          "total": 3300
+        },
+        "moneySavingTips": [
+          "Book flights and accommodation in advance",
+          "Use public transportation",
+          "Eat at local cafes and bistros"
+        ],
+        "packingSuggestions": [
+          "Comfortable walking shoes",
+          "Light jacket for cooler evenings",
+          "Power adapter for charging electronic devices"
+        ],
+        "mustNotMiss": [
+          "Eiffel Tower",
+          "River Seine Cruise",
+          "Louvre Museum",
+          "Montmartre neighborhood"
+        ]
+      },
+      "id": "pzsJ5MUa0OI"
+    },
+    {
+      "userId": "2",
+      "saved": false,
+      "createdAt": "2026-08-02T11:41:05.246Z",
+      "tripData": {
+        "destination": "Dubai, United Arab Emirates",
+        "duration": "6 Days and 5 Nights",
+        "travellerType": "Family",
+        "tripStyle": "Visit Attractions",
+        "totalTravellers": 8,
+        "transportation": {
+          "recommended": "Flight",
+          "options": [
+            {
+              "mode": "Flight",
+              "travelTime": "4 hours",
+              "budgetPerPerson": 250,
+              "totalBudget": 2000,
+              "comfortLevel": "High",
+              "recommendation": "Fastest"
+            },
+            {
+              "mode": "Train",
+              "travelTime": "Not available",
+              "budgetPerPerson": 0,
+              "totalBudget": 0,
+              "comfortLevel": "Not available",
+              "recommendation": "Not available"
+            },
+            {
+              "mode": "Bus",
+              "travelTime": "Not available",
+              "budgetPerPerson": 0,
+              "totalBudget": 0,
+              "comfortLevel": "Not available",
+              "recommendation": "Not available"
+            },
+            {
+              "mode": "Self-drive/Taxi",
+              "travelTime": "Not practical",
+              "budgetPerPerson": 0,
+              "totalBudget": 0,
+              "comfortLevel": "Not practical",
+              "recommendation": "Not recommended"
+            }
+          ]
+        },
+        "accommodation": {
+          "category": "Mid-range",
+          "costPerNight": 150,
+          "totalCost": 4500
+        },
+        "dayWiseItinerary": [
+          {
+            "day": 1,
+            "morning": "Arrival and check-in",
+            "afternoon": "Visit Dubai Mall",
+            "evening": "Dinner at a vegetarian restaurant",
+            "suggestedMeals": "Veg biryani, falafel",
+            "estimatedCost": 100
+          },
+          {
+            "day": 2,
+            "morning": "Visit Burj Khalifa",
+            "afternoon": "Dubai Fountain Show",
+            "evening": "Dinner at a local restaurant",
+            "suggestedMeals": "Shawarma, hummus",
+            "estimatedCost": 150
+          },
+          {
+            "day": 3,
+            "morning": "Visit Miracle Garden",
+            "afternoon": "Global Village",
+            "evening": "Dinner at a vegetarian restaurant",
+            "suggestedMeals": "Pasta, pizza",
+            "estimatedCost": 120
+          },
+          {
+            "day": 4,
+            "morning": "Visit Desert Safari",
+            "afternoon": "Dune bashing",
+            "evening": "Dinner at a desert camp",
+            "suggestedMeals": "Veg kebabs, salads",
+            "estimatedCost": 180
+          },
+          {
+            "day": 5,
+            "morning": "Visit Museum of the Future",
+            "afternoon": "Dubai Frame",
+            "evening": "Dinner at a local restaurant",
+            "suggestedMeals": "Indian cuisine",
+            "estimatedCost": 120
+          },
+          {
+            "day": 6,
+            "morning": "Check-out and departure",
+            "afternoon": "Last-minute shopping",
+            "evening": "Departure",
+            "suggestedMeals": "Snacks, drinks",
+            "estimatedCost": 50
+          }
+        ],
+        "budget": {
+          "transportation": 2000,
+          "accommodation": 4500,
+          "food": 2000,
+          "attractions": 1500,
+          "localTransport": 500,
+          "shopping": 500,
+          "miscellaneous": 1000,
+          "total": 11000
+        },
+        "moneySavingTips": [
+          "Book flights and accommodation in advance",
+          "Use public transport or walk whenever possible",
+          "Eat at local restaurants or street food stalls",
+          "Avoid shopping at touristy areas"
+        ],
+        "packingSuggestions": [
+          "Lightweight clothing",
+          "Sunscreen and sun hat",
+          "Comfortable shoes",
+          "Power adapter",
+          "Water bottle"
+        ],
+        "mustNotMiss": [
+          "Burj Khalifa",
+          "Dubai Fountain Show",
+          "Desert Safari",
+          "Miracle Garden"
+        ]
+      },
+      "id": "KfNQJwVVg3w"
+    },
+    {
+      "userId": "2",
+      "saved": true,
+      "createdAt": "2026-08-02T23:29:33.929Z",
+      "tripData": {
+        "destination": "Hawaii, United States",
+        "duration": "4 Days and 4 Nights",
+        "travellerType": "couple",
+        "tripStyle": "visit attractions",
+        "totalTravellers": 2,
+        "transportation": {
+          "recommended": "Flight",
+          "options": [
+            {
+              "mode": "Flight",
+              "estimatedTravelTime": "9 hours",
+              "approximateBudgetPerPerson": 500,
+              "approximateTotalBudget": 1000,
+              "comfortLevel": "High",
+              "recommendation": "Fastest"
+            },
+            {
+              "mode": "Train",
+              "estimatedTravelTime": "Not available",
+              "approximateBudgetPerPerson": "Not available",
+              "approximateTotalBudget": "Not available",
+              "comfortLevel": "Not available",
+              "recommendation": "Not available"
+            },
+            {
+              "mode": "Bus",
+              "estimatedTravelTime": "Not available",
+              "approximateBudgetPerPerson": "Not available",
+              "approximateTotalBudget": "Not available",
+              "comfortLevel": "Not available",
+              "recommendation": "Not available"
+            },
+            {
+              "mode": "Self-drive/Taxi",
+              "estimatedTravelTime": "Not available",
+              "approximateBudgetPerPerson": "Not available",
+              "approximateTotalBudget": "Not available",
+              "comfortLevel": "Not available",
+              "recommendation": "Not available"
+            }
+          ]
+        },
+        "accommodation": {
+          "category": "Mid-range",
+          "estimatedCost": 800
+        },
+        "dayWiseItinerary": [
+          {
+            "day": 1,
+            "morning": "Visit Pearl Harbor",
+            "afternoon": "Explore Waikiki Beach",
+            "evening": "Enjoy a romantic dinner at a local restaurant",
+            "suggestedMeals": "Veg food",
+            "estimatedCostForTheDay": 200
+          },
+          {
+            "day": 2,
+            "morning": "Visit Hanauma Bay",
+            "afternoon": "Take a surfing lesson",
+            "evening": "Watch the sunset at a local spot",
+            "suggestedMeals": "Veg food",
+            "estimatedCostForTheDay": 250
+          },
+          {
+            "day": 3,
+            "morning": "Visit the Dole Plantation",
+            "afternoon": "Take a tour of the Nuuanu Pali State Park",
+            "evening": "Enjoy a couples' spa treatment",
+            "suggestedMeals": "Veg food",
+            "estimatedCostForTheDay": 300
+          },
+          {
+            "day": 4,
+            "morning": "Visit the Diamond Head State Monument",
+            "afternoon": "Explore the Honolulu Museum of Art",
+            "evening": "Enjoy a farewell dinner at a local restaurant",
+            "suggestedMeals": "Veg food",
+            "estimatedCostForTheDay": 200
+          }
+        ],
+        "budget": {
+          "transportation": 1000,
+          "accommodation": 800,
+          "food": 800,
+          "attractions": 600,
+          "localTransport": 100,
+          "shopping": 200,
+          "miscellaneous": 200,
+          "total": 3700,
+          "costPerPerson": 1850
+        },
+        "moneySavingTips": [
+          "Book flights and accommodation in advance",
+          "Use public transportation",
+          "Eat at local restaurants",
+          "Avoid shopping at touristy areas"
+        ],
+        "packingSuggestions": [
+          "Lightweight clothing",
+          "Swimwear",
+          "Sunscreen",
+          "Sunglasses",
+          "Comfortable shoes"
+        ],
+        "mustNotMiss": [
+          "Watch the sunrise at Haleakala National Park",
+          "Take a helicopter tour over the islands",
+          "Visit the Hawaii Volcanoes National Park"
+        ]
+      },
+      "id": "yPX4wWFN4VU"
+    },
+    {
+      "userId": "2",
+      "saved": false,
+      "createdAt": "2026-08-02T23:44:08.556Z",
+      "tripData": {
+        "destination": "Australia",
+        "duration": "4 Days and 4 Nights",
+        "travellerType": "Family",
+        "tripStyle": "Visit Attractions",
+        "totalTravellers": 2,
+        "transportation": {
+          "recommended": "Flight",
+          "options": [
+            {
+              "mode": "Flight",
+              "estimatedTravelTime": "10 hours",
+              "approximateBudgetPerPerson": 800,
+              "approximateTotalBudget": 1600,
+              "comfortLevel": "High",
+              "recommendation": "Fastest"
+            },
+            {
+              "mode": "Train and Bus",
+              "estimatedTravelTime": "Not Practical",
+              "approximateBudgetPerPerson": "Not Practical",
+              "approximateTotalBudget": "Not Practical",
+              "comfortLevel": "Not Practical",
+              "recommendation": "Not Recommended"
+            }
+          ]
+        },
+        "accommodation": {
+          "category": "Mid-range",
+          "estimatedCostPerNight": 150,
+          "totalEstimatedCost": 600
+        },
+        "dayWiseItinerary": [
+          {
+            "day": 1,
+            "morning": "Arrival in Australia, check-in to hotel",
+            "afternoon": "Visit Sydney Opera House",
+            "evening": "Explore Sydney Harbour",
+            "suggestedMeals": "Veg food at local restaurants",
+            "estimatedCostForTheDay": 200
+          },
+          {
+            "day": 2,
+            "morning": "Visit Bondi Beach",
+            "afternoon": "Explore Blue Mountains",
+            "evening": "Enjoy dinner at a veg restaurant",
+            "suggestedMeals": "Veg food at local restaurants",
+            "estimatedCostForTheDay": 250
+          },
+          {
+            "day": 3,
+            "morning": "Visit Melbourne City",
+            "afternoon": "Explore Royal Botanic Gardens",
+            "evening": "Enjoy dinner at a veg restaurant",
+            "suggestedMeals": "Veg food at local restaurants",
+            "estimatedCostForTheDay": 220
+          },
+          {
+            "day": 4,
+            "morning": "Visit Great Ocean Road",
+            "afternoon": "Explore Melbourne Museum",
+            "evening": "Departure from Australia",
+            "suggestedMeals": "Veg food at local restaurants",
+            "estimatedCostForTheDay": 280
+          }
+        ],
+        "budget": {
+          "transportation": 1600,
+          "accommodation": 600,
+          "food": 1000,
+          "attractions": 800,
+          "localTransport": 200,
+          "shopping": 200,
+          "miscellaneous": 400,
+          "total": 4800
+        },
+        "moneySavingTips": [
+          "Book flights and accommodation in advance",
+          "Use public transport",
+          "Eat at local restaurants",
+          "Avoid shopping at tourist areas"
+        ],
+        "packingSuggestions": [
+          "Comfortable shoes",
+          "Sunscreen",
+          "Light jacket",
+          "Power adapter"
+        ],
+        "mustNotMiss": [
+          "Sydney Opera House",
+          "Blue Mountains",
+          "Great Ocean Road"
+        ]
+      },
+      "id": "dGpjL9Zk3As"
+    },
+    {
+      "userId": "1",
+      "saved": true,
+      "createdAt": "2026-08-02T23:55:15.557Z",
+      "tripData": {
+        "destination": "Lakshadweep, India",
+        "duration": "4 Days and 4 Nights",
+        "travellerType": "Family",
+        "tripStyle": "Kid Friendly",
+        "totalTravellers": 4,
+        "transportation": {
+          "recommended": "Flight",
+          "options": [
+            {
+              "mode": "Flight",
+              "travelTime": "2 hours",
+              "approximateBudgetPerPerson": 10000,
+              "approximateTotalBudget": 40000,
+              "comfortLevel": "High",
+              "recommendation": "Fastest"
+            },
+            {
+              "mode": "Train and Ferry",
+              "travelTime": "24 hours",
+              "approximateBudgetPerPerson": 5000,
+              "approximateTotalBudget": 20000,
+              "comfortLevel": "Medium",
+              "recommendation": "Budget"
+            }
+          ]
+        },
+        "accommodation": {
+          "category": "Mid-range",
+          "costPerNight": 8000,
+          "totalCost": 32000
+        },
+        "dayWiseItinerary": [
+          {
+            "day": 1,
+            "morning": "Arrival and check-in",
+            "afternoon": "Visit to Agatti Island",
+            "evening": "Dinner at a local restaurant",
+            "suggestedMeals": "Veg food",
+            "estimatedCost": 2000
+          },
+          {
+            "day": 2,
+            "morning": "Snorkeling at Agatti Island",
+            "afternoon": "Visit to Bangaram Island",
+            "evening": "Relaxation at the beach",
+            "suggestedMeals": "Veg food",
+            "estimatedCost": 3000
+          },
+          {
+            "day": 3,
+            "morning": "Visit to Thinnakara Island",
+            "afternoon": "Water sports at Thinnakara Island",
+            "evening": "Dinner at a local restaurant",
+            "suggestedMeals": "Veg food",
+            "estimatedCost": 2500
+          },
+          {
+            "day": 4,
+            "morning": "Check-out and departure",
+            "afternoon": "",
+            "evening": "",
+            "suggestedMeals": "",
+            "estimatedCost": 0
+          }
+        ],
+        "budget": {
+          "transportation": 40000,
+          "accommodation": 32000,
+          "food": 20000,
+          "attractions": 10000,
+          "localTransport": 5000,
+          "shopping": 0,
+          "miscellaneous": 10000,
+          "total": 107000
+        },
+        "moneySavingTips": [
+          "Book flights and accommodation in advance",
+          "Opt for a package tour",
+          "Try local cuisine instead of fine dining"
+        ],
+        "packingSuggestions": [
+          "Light clothing",
+          "Sunscreen",
+          "Sunglasses",
+          "Swimwear"
+        ],
+        "mustNotMiss": [
+          "Snorkeling at Agatti Island",
+          "Visit to Bangaram Island",
+          "Water sports at Thinnakara Island"
+        ]
+      },
+      "id": "g0CZLBP0iw0"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

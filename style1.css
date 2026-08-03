@@ -1,0 +1,18 @@
+#signup{
+    transition: ease 0.3s;
+}
+#signup-btn:hover{
+   
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+       transform: scale(1.1);
+}
+input::placeholder{
+    font-size: 1rem;
+}
+
+/* Mobile */
+@media (max-width: 576px){
+    input::placeholder{
+        font-size: 0.8rem;
+    }
+}

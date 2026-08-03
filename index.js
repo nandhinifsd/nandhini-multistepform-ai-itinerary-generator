@@ -1,7 +1,7 @@
 async function loadPlanurtrip(){
 
     const response =
-        await fetch("components/planurtrip.html");
+        await fetch("Components/planurtrip.html");
 
     const html =
         await response.text();

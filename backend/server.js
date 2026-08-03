@@ -106,6 +106,173 @@ app.get("/api/location-search", async (req, res) => {
     }
 });
 
+app.get("/users", async (req, res) => {
+
+    try {
+
+        const phone = req.query.phone;
+        const username = req.query.username;
+
+        let query;
+
+        if (phone) {
+            query = db.collection("users")
+                     .where("phone", "==", phone);
+        } 
+        else if (username) {
+            query = db.collection("users")
+                     .where("username", "==", username);
+        }
+
+        const snapshot = await query.get();
+
+        const users = snapshot.docs.map(doc => ({
+            id: doc.id,
+            ...doc.data()
+        }));
+
+        res.json(users);
+
+    } catch(error) {
+        console.log(error);
+
+        res.status(500).json({
+            error: "Failed to fetch users"
+        });
+    }
+
+}); 
+
+app.post("/users", async (req, res) => {
+
+    try {
+
+        const user = req.body;
+
+        const docRef = await db.collection("users").add(user);
+
+        res.json({
+            id: docRef.id,
+            message: "User created successfully"
+        });
+
+    } catch(error) {
+
+        console.log(error);
+
+        res.status(500).json({
+            error: "Failed to create user"
+        });
+    }
+
+});
+
+app.post("/trips", async (req, res) => {
+
+    try {
+
+        const trip = req.body;
+
+        const docRef = await db.collection("trips").add({
+            ...trip,
+            createdAt: new Date()
+        });
+
+        res.json({
+            id: docRef.id,
+            message: "Trip saved successfully"
+        });
+
+    } catch(error) {
+
+        console.log(error);
+
+        res.status(500).json({
+            error: "Failed to save trip"
+        });
+    }
+
+});
+
+app.get("/trips", async (req, res) => {
+    try {
+        const snapshot = await db.collection("trips").get();
+
+        const trips = snapshot.docs.map(doc => ({
+            id: doc.id,
+            ...doc.data()
+        }));
+
+        res.json(trips);
+
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            error: "Failed to fetch trips"
+        });
+    }
+});
+
+app.get("/trips/:id", async (req, res) => {
+    try {
+        const doc = await db.collection("trips").doc(req.params.id).get();
+
+        if (!doc.exists) {
+            return res.status(404).json({
+                error: "Trip not found"
+            });
+        }
+
+        res.json({
+            id: doc.id,
+            ...doc.data()
+        });
+
+    } catch (error) {
+        console.error(error);
+        res.status(500).json({
+            error: "Failed to fetch trip"
+        });
+    }
+});
+
+app.patch("/trips/:id", async (req, res) => {
+    try {
+        const tripId = req.params.id;
+        const updates = req.body;
+
+        await db.collection("trips").doc(tripId).update(updates);
+
+        res.json({
+            message: "Trip updated successfully"
+        });
+
+    } catch (error) {
+        console.error(error);
+
+        res.status(500).json({
+            error: "Failed to update trip"
+        });
+    }
+});
+
+app.delete("/trips/:id", async (req, res) => {
+    try {
+        await db.collection("trips").doc(req.params.id).delete();
+
+        res.json({
+            message: "Trip deleted successfully"
+        });
+
+    } catch (error) {
+        console.error(error);
+
+        res.status(500).json({
+            error: "Failed to delete trip"
+        });
+    }
+});
+
 app.listen(PORT, () => {
     console.log(`Server running on port ${PORT}`);
 });

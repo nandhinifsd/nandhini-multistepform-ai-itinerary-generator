@@ -33,7 +33,7 @@ async function displaySelectedTrip(tripId)
 {
     try {
         const response = await fetch(
-            `http://localhost:3000/trips/${tripId}`
+            `https://nandhini-multistepform-ai-itinerary.onrender.com/${tripId}`
         );
         const selectedTrip = await response.json();
         console.log("Selected Trip:", selectedTrip);
@@ -47,7 +47,7 @@ async function displaySelectedTrip(tripId)
  async function loadUserTrips(userId)
  {
     console.log(typeof userId);
-    const response = await fetch(`http://localhost:3000/trips`);
+    const response = await fetch(`https://nandhini-multistepform-ai-itinerary.onrender.com/trips`);
     console.log(response);
     const trips = await response.json();
     console.log(trips);
@@ -145,7 +145,7 @@ swiper_var.updateSize();
 
 async function toggleWishlist(tripId, currentStatus)
 {
-    await fetch(`http://localhost:3000/trips/${tripId}`,{
+    await fetch(`https://nandhini-multistepform-ai-itinerary.onrender.com/trips/${tripId}`,{
         method:"PATCH",
         headers:{
             "Content-Type":"application/json"
@@ -163,7 +163,7 @@ async function deleteTrip(tripId)
     if (!confirmDelete) return;
     try {
         const response = await fetch(
-            `http://localhost:3000/trips/${tripId}`,
+            `http://https://nandhini-multistepform-ai-itinerary.onrender.com/trips/${tripId}`,
             {
                 method: "DELETE"
             }

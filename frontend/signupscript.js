@@ -21,7 +21,7 @@ const reset=document.getElementById("reset-btn");
 let emailregex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 const phoneRegex = /^[6-9]\d{9}$/;
 let name,username,password,phone;
-const url="http://localhost:3000/users";
+const url="https://nandhini-multistepform-ai-itinerary.onrender.com/users";
 
 f_name.addEventListener("input",validateFullname);
 function validateFullname ()
@@ -208,7 +208,7 @@ else
 async function checkDuplicateEmail(emailid)
 {
     const emailResponse = await fetch(
-    `http://localhost:3000/users?username=${encodeURIComponent(emailid)}`
+    `https://nandhini-multistepform-ai-itinerary.onrender.com/users?username=${encodeURIComponent(emailid)}`
 );
 
 const emailData = await emailResponse.json();
@@ -223,7 +223,7 @@ else
 async function checkduplicatePhone(phoneno)
 {
     const phoneResponse = await fetch(
-    `http://localhost:3000/users?phone=${encodeURIComponent(phoneno)}`
+    `https://nandhini-multistepform-ai-itinerary.onrender.com/users?phone=${encodeURIComponent(phoneno)}`
 );
 
 const phoneData = await phoneResponse.json();

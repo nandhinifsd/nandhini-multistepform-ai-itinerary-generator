@@ -20,10 +20,10 @@ let url;
         let input=username.value.trim();
         if(/^\d{10}$/.test(input))
         {
-             url = `http://localhost:3000/users?phone=${encodeURIComponent(input)}`;
+             url = `https://nandhini-multistepform-ai-itinerary.onrender.com/users?phone=${encodeURIComponent(input)}`;
         }
         else{
-             url = `http://localhost:3000/users?username=${encodeURIComponent(input)}`;
+             url = `https://nandhini-multistepform-ai-itinerary.onrender.com/users?username=${encodeURIComponent(input)}`;
         }
        console.log(url);
     const response = await fetch(url);

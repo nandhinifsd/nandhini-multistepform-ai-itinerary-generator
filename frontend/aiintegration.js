@@ -206,7 +206,7 @@ async function fetchGroqWithRetry(url, options) {
 
 async function Updatedata(output)
  {
-   const url=`http://localhost:3000/trips`;
+   const url=`https://nandhini-multistepform-ai-itinerary.onrender.com/trips`;
    let user_details=JSON.parse(localStorage.getItem("loggedUser"));
    console.log(user_details);
    const new_trip = {
@@ -216,7 +216,7 @@ async function Updatedata(output)
         tripData: output
     };
     console.log(new_trip);
-    const response=await fetch("http://localhost:3000/trips", {
+    const response=await fetch(url, {
     method: "POST",
     headers: {
         "Content-Type": "application/json"

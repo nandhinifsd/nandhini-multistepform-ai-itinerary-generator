@@ -1,0 +1,246 @@
+<!--plan your Trip-->
+ <div class="container-fluid ms-2 me-2 p-3 planurtrip" id="planUrTrip">
+ <div class="marginabout40px"></div>   
+<div id="tripstepcarousel" class="carousel slide" data-bs-interval="false">
+  <div class="carousel-inner">
+
+    <!--step 1-->
+    <form id="wholetripform">
+    <div class="carousel-item active" id="step1">
+      <div class="container-fluid formdesign">
+       
+        <h1 class="heading-font text-center d-block mt-3">Your Journey,Perfectly Crafted</h1>
+           <div class="marginabout20px"></div>
+           <div class="search_container">
+        <label for="destinationsearch" class="form-label heading-font text-center d-block mb-3">Enter your destination</label>
+           
+            <input type="text" class="form-control" list="datalistOptions" id="destinationsearch" placeholder="Type your destination" required>
+                <ul id="datalistOptions" class="suggestions"></ul>
+            </div>    
+            <div class="marginabout20px"></div>
+            <label for="triptype" class="form-label heading-font text-center d-block mb-3">Who's coming along?</label>
+ 
+            <div class="row g-3">
+            <div class=" col-12 col-md-6 col-lg-3 text-center">
+                <button class="btn-btn-light imagebutton border-0 w-80 p-3 triptype-btn" value="couple">
+                    <img src="icons/couple.png" alt="Couple" width="80">
+                    <div class="mt-2 heading-font">Couple</div>
+                </button>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-center">
+                <button class="btn-btn-light imagebutton  border-0 w-80  p-3 triptype-btn" value="family">
+                    <img src="icons/family.png" alt="Family" width="80">
+                    <div class="mt-2 heading-font">Family</div>
+                </button>
+            </div>
+            <div class="col-lg-3 col-md-6 col-12 text-center">
+                <button class="btn-btn-light imagebutton  border-0 w-80  p-3 triptype-btn" value="friends">
+                    <img src="icons/friends.png" alt="Friends" width="80">
+                    <div class="mt-2 heading-font">Friends</div>
+                </button>
+            </div>
+             <div class="col-lg-3 col-md-6 col-12 text-center">
+                <button class="btn-btn-light imagebutton  border-0 w-80  p-3 triptype-btn" value="solotrip">
+                    <img src="icons/solo.png" alt="Solo Trip" width="80">
+                    <div class="mt-2 heading-font">Solo Trip</div>
+                </button>
+            </div>
+            </div>
+            <div class="row g-5 text-end">
+                <div class="col-12 text-center">
+                    <button class="btn btn-success btn-lg text-white heading-font" id="step1next">Next</button> 
+                </div>
+            </div>
+
+            </div>
+         </div>
+<!--step2-->
+ <div class="carousel-item" id="step2">
+      <div class="container-fluid formdesign">
+       <div class="marginabout20px"></div>
+        <h1 class="heading-font text-center d-block mt-3">What's your Travel Vibe?</h1>
+           <div class="marginabout20px"></div>
+            <div class="row g-3">
+            <div class="col-lg-4 col-md-6 col-12 text-center">
+                <button class="btn-btn-light imagebutton border-0 w-60 p-3 trip-vibe" value="kid-friendly">
+                    <img src="icons/kidfriendly.png" alt="Kid friendly" width="250">
+                    
+                </button>
+            </div>
+            <div class="col-lg-4 col-md-6  col-12 text-center">
+                <button class="btn-btn-light imagebutton  border-0 w-60  p-3 trip-vibe" value="romance">
+                    <img src="icons/romance.png" alt="Romance" width="250">
+                    
+                </button>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 text-center">
+                <button class="btn-btn-light imagebutton  border-0 w-60  p-3 trip-vibe" value="leisure">
+                    <img src="icons/leisure.png" alt="Leisure" width="250">
+                   
+                </button>
+            </div>
+             <div class="col-lg-4 col-md-6 col-12 text-center">
+                <button class="btn-btn-light imagebutton  border-0 w-60  p-3 trip-vibe" value="visit attractions">
+                    <img src="icons/attractions.png" alt="Attractions" width="250">
+                    
+                </button>
+            </div>
+                  <div class="col-lg-4 col-md-6 col-12 text-center">
+                <button class="btn-btn-light imagebutton  border-0 w-60  p-3 trip-vibe" value="nature-lover">
+                    <img src="icons/nature.png" alt="Nature" width="250">
+                    
+                </button>
+            </div>
+                  <div class="col-lg-4 col-md-6 col-12 text-center">
+                <button class="btn-btn-light imagebutton  border-0 w-60  p-3 trip-vibe" value="adventure">
+                    <img src="icons/adventure.png" alt="Adventure" width="250">
+                    
+                </button>
+            </div>
+            </div>
+             <div class="marginabout20px"></div>
+              <div class="row g-5 text-end mb-3">
+                <div class="col-6 text-center">
+                    <button class="btn btn-danger btn-lg text-white heading-font" data-bs-target="#tripstepcarousel" data-bs-slide="prev">Back</button> 
+                </div>
+                 <div class="col-6 text-center">
+                    <button class="btn btn-success btn-lg text-white heading-font" id="step2next">Next</button> 
+                </div>
+            </div>
+            <div class="marginabout20px"></div>
+        </div>
+    </div>
+<!--step3-->
+    <div class="carousel-item" id="step3">
+        <div class="container-fluid formdesign">
+          
+ <h1 class="heading-font text-center mb-4">Room and Guest Details</h1>
+ <div class="row mt-2 mb-2 room-space" >   
+  <div class="col-lg-3 col-md-4 col-6">
+    <div class="card shadow border-0 mx-auto p-3 bg-transparent">
+        <div class="card-body">
+            <h2 class="subheading-font text-center mb-4 text-white">Room - 1</h2>
+            <div class="row g-4">
+                <!-- Adults -->
+                    <label class="form-label subheading-font text-white">Adults
+                    </label>
+                        <input type="number" class="form-control text-center adult-count" min="1" max="10"  value="1" required>
+               </div>
+                  <!-- Kids -->
+                <div class="row g-4 d-block mt-2">
+                    <label class="form-label subheading-font text-white"> Kids
+                    </label>
+                        <input type="number"
+                               class="form-control text-center kid-count" min="0" max="10" value="0"  required>
+                </div>
+              
+        </div>
+        </div>
+        </div>
+        </div>
+        <div class="row mt-2 mb-2 message text-center subheading-font"></div>
+       
+            <div class="row mt-3 mb-1 w-100 mx-auto justify-content-center"> 
+                <button class="btn btn-warning btn-lg text-white px-1 w-50 subheading-font text-center"
+                        id="addroom-btn"> Add Room
+                </button>
+
+            </div>  
+        
+              <div class="row g-1 text-end mt-2">
+                <div class="col-6 text-center">
+                    <button class="btn btn-danger btn-lg text-white heading-font" data-bs-target="#tripstepcarousel" data-bs-slide="prev">Back</button> 
+                </div>
+                 <div class="col-6 text-center">
+                     <button class="btn btn-success btn-lg text-white heading-font" id="step3next">Next</button> 
+                </div>
+            </div>
+
+
+          </div>  
+    </div>
+<!--step-4-->
+ <div class="carousel-item" id="step4">
+        <div class="container-fluid formdesign">
+             <h1 class="heading-font text-center d-block mt-3 mb-3">Trip details</h1>
+          <div class="row mt-3 mb-3 p-1">
+                         <div  class="col-12 col-md-6 d-block mt-2 text-start">
+                            <label for="departuredate" class="form-label subheading-font">Depature Date</label>
+                            <input type="date" class="form-control w-60" id="departuredate" required>     
+                        </div>
+                
+                        <div class="col-12 col-md-6 d-block mt-2 text-start">
+                        <label for="arrivaldate" class="form-label subheading-font">Arrival Date</label>          
+                        <input type="date" class="form-control w-60" id="arrivaldate" required>
+                        </div>
+                </div>
+                <div class="marginabout40px"></div>
+                <div class="marginabout20px"></div>
+                <div class="row mb-3 mt-3 p-1">
+                    <div class="col-sm-12 col-md-6 text-start dep-container">
+                        <label for="departurecity" class="form-label subheading-font">Departure City</label>
+                        <input type="text" class="form-control w-60" id="departurecity" required>
+                        <ul class="citylist" id="dep-list"></ul>
+                    </div>
+                
+                 
+                    <div class="col-sm-12 col-md-6 text-start arr-container">
+                        <label for="departurecity" class="form-label subheading-font">Arrival City</label>
+                        <input type="text" class="form-control w-60" id="arrivalcity" required>
+                        <ul class="citylist" id="arr-list"></ul>
+                    </div>
+                </div>
+                <div class="row g-1 text-end">
+                <div class="col-6 text-center">
+                    <button class="btn btn-danger btn-lg text-white heading-font" data-bs-target="#tripstepcarousel" data-bs-slide="prev">Back</button> 
+                </div>
+                 <div class="col-6 text-center">
+                     <button class="btn btn-success btn-lg text-white heading-font" id="step4next">Next</button> 
+                </div>
+            </div>
+ </div>
+ </div>
+<!--step5-->
+<div class="carousel-item" id="step5">
+        <div class="container-fluid formdesign">
+           <div class="marginabout20px"></div>
+        <h1 class="heading-font text-center d-block mt-3 mb-3">Contact Details</h1>
+            <div class="marginabout20px"></div>
+            <form id="travelform" action="thankyou.html" method="get">
+            <div class="row  mt-1 mb-4 p-2">
+                <div class="col-sm-12 text-center">
+                        <input type="email" class="form-control" placeholder="Email" id="emailid" required>
+                </div>
+                </div>
+              <div class="row  mb-4 p-2">         
+                <div class="col-sm-12 text-center">
+                         <input type="tel" class="form-control" placeholder="Phone Number" id="phoneno" pattern="[6-9]{1}[0-9]{9}" required>
+                </div>
+            </div>
+                 <div class="row mb-4 p-2">         
+                <div class="col-sm-12 text-center">
+                         <input type="tel" class="form-control" placeholder="Alternate Phone Number" id="alterphoneno" pattern="[6-9]{1}[0-9]{9}" required>
+                </div>
+            </div>
+                <div class="row mb-4 p-2">
+                    <div class="col-sm-12 text-center">
+                        <textarea class="form-control rows=10" placeholder="Enter your Preferences" id="message"></textarea>
+                    </div>
+                </div>
+             <div class="marginabout20px"></div>
+              <div class="row g-1 text-end mb-5 p-2">
+                <div class="col-sm-12 g-3 col-lg-6 text-center">
+                    <button class="btn btn-danger btn-lg text-white heading-font" data-bs-target="#tripstepcarousel" data-bs-slide="prev">Back</button> 
+                </div>
+                 <div class="col-sm-12 g-3 col-lg-6 text-center">
+                    <button class="btn btn-success btn-lg text-white heading-font actionbutton" id="submit-btn">Submit</button> 
+                </div>
+            </div>
+          </div>  
+    </div>
+    </form>
+  </div>
+  </div>
+  <div class="marginabout40px"></div>
+</div>
+</div>

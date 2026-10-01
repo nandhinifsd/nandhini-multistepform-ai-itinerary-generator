@@ -25,7 +25,13 @@ async function callGroq(prompt)
                             content: prompt
                         }
                     ],
-                    temperature: 0.7
+                      response_format: {
+        type: "json_object"
+    },
+
+    temperature: 0.3,
+
+    max_completion_tokens: 20000
                 })
             }
         );

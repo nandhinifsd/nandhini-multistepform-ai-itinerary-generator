@@ -35,12 +35,19 @@ async function callGroq(prompt)
                 })
             }
         );
- if (!response.ok) {
-        throw new Error(`Groq Error: ${response.status}`);
+     const result = await response.json();
+
+    console.log("Groq status:", response.status);
+    console.log("Groq response:", result);
+
+    if (!response.ok) {
+        throw new Error(
+            result?.error?.message || `Groq Error: ${response.status}`
+        );
     }
 
-    return await response.json();
-    }
+    return result;
+}
 
 
 app.get("/", (req, res) => {
